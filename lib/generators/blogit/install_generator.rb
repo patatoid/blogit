@@ -9,7 +9,7 @@ module Blogit
       def copy_initializer
         template "blogit.rb", "config/initializers/blogit.rb"
         template "create_blogit_posts.rb", "db/migrate/#{Time.now.to_s(:number)}_create_blogit_posts.rb"
-        template "create_blogit_comments.rb", "db/migrate/#{Time.now.to_s(:number)}_create_blogit_comments.rb"
+        template "create_blogit_comments.rb", "db/migrate/#{(Time.now + 1.second).to_s(:number)}_create_blogit_comments.rb"
       end
 
     end
