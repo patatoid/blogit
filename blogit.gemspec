@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency "kaminari", '>=0.13.0'
   s.add_dependency "jquery-rails"
   s.add_dependency "pingr", ">= 0.0.3"
-  s.add_dependency "acts-as-taggable-on"
+  s.add_dependency "acts-as-taggable-on", git: "https://github.com/patatoid/acts-as-taggable-on.git"
 
   s.add_development_dependency 'rails', '>= 4.0.0'
   s.add_development_dependency 'thor'
