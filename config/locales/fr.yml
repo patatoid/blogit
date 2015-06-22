@@ -36,6 +36,7 @@ fr:
       write_a_new_blog_post: "Ecrivez un nouvel article"
       blog_post_was_successfully_created: "Article ajouté avec succès."
       blog_post_was_successfully_updated: "Article modifié avec succès."
+      tag_placeholder: "Ajoutez des tags à votre article"
       blog_post_was_successfully_destroyed: "Article supprimé avec succès."
       related_posts: "Articles similaires"
     share_bar:
